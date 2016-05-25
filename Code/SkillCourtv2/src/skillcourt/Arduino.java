@@ -96,7 +96,7 @@ public class Arduino implements SerialPortEventListener {
             output.write(data.getBytes());
         } catch (Exception e) {
             System.err.println(e.toString());
-            System.exit(0);
+            //System.exit(0);
         }
     }
 
